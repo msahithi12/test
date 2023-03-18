@@ -1,0 +1,10 @@
+#grid-container {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+/*.grid-item-1 {
+    grid-column: 1/-1;
+}*/

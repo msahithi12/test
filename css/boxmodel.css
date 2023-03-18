@@ -1,0 +1,12 @@
+#border{
+    text-align: center;
+    /*border-width: 10px;
+    border-color: brown;
+    border-style: double;*/
+}
+.style{
+    text-align: center;
+    border: 4px dotted pink;
+    margin: 40px 20px;
+    padding: 40px 20px;
+}

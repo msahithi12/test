@@ -1,0 +1,12 @@
+#des{
+    color:darkred
+}
+#child>p{
+    color:darkolivegreen
+}
+#adj+i{
+    color:palevioletred
+}
+#gen~h3{
+    color:deeppink
+}
