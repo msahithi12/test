@@ -13,7 +13,6 @@
   color: black;
   text-align: center;
   padding: 20px;
-  ;
   text-decoration: none;
 }
 
@@ -71,16 +70,26 @@ button {
 }
 
 /*2nd half*/
-.server {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-}
 
-.shared {
+.sd{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.servers {
   display: grid;
   grid-template-columns: repeat(2,auto);
-  justify-content:space-evenly;
+  margin: 70px;
+  column-gap: 50px;
+}
+.server{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  column-gap: 50px;
+}
+.shared {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 50px;
 }
 
 .clients {
@@ -132,13 +141,6 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   text-align: center;
-}
-
-input textarea {
-  width: 50%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  resize: vertical;
 }
 
 .sub {
