@@ -1,0 +1,65 @@
+/*link*/
+a {
+    text-decoration: none;
+}
+
+/*button*/
+#button {
+    color: white;
+    padding: 10px;
+    background-color: rgb(39, 39, 155);
+    border: 1px solid gray
+}
+
+.sign {
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+    background-color: white;
+    align-items: center;
+}
+
+.sign {
+    box-sizing: border-box;
+    box-shadow: 0 15px 15px gray;
+    width: 40%;
+    height: 60%;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    border-radius: 8px;
+    border-width: 5px;
+}
+a{
+    color: rgb(75, 75, 167);
+}
+button:hover{
+    color: rgb(16, 16, 95);
+}
+body {
+  background-color: rgb(43, 27, 136);
+}
+.sign {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    margin-left: 350px;
+    padding: 5px;
+}
+
+#signup {
+    text-align: center;
+}
+
+#checkbox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*input fields*/
+input[type=email] {
+    width: 100%;
+}
+
+input[type=password] {
+    width: 100%;
+}
